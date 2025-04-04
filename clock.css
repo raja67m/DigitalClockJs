@@ -74,19 +74,25 @@ color: rgba(113, 128, 147,0.1);
 .meridian span:nth-child(2){
    margin-top: 10px;
 }
+.active{
+   color: rgba(76,209,55,1.0) !important;
+
+}
 .date{
    color:red;
    font-size: 40px;
    font-family: 'DS-DIGI';
    font-weight: bold;
 }
-.active{
-   color: rgba(76,209,55,1.0);
-}
-.day-active{
-   color: rgba(255,195,18,1.0);
 
+.days-active{
+   color: rgba(255,195,18,1.0);
+   
 }
+.month-active{
+   color: rgba(255,195,18,1.0);
+}
+
 .num{
    width: 50px;
    height: 100px;
